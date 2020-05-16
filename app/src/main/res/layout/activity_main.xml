@@ -52,18 +52,16 @@
             android:textSize="30sp"
 
             ></Button>
-        <Button
+        <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_weight="2"
+            android:src="@mipmap/bspace"
             android:background="@drawable/rippple_effect_numbers"
-            android:textColor="@color/colorWhite"
-            android:text="<--"
 
-            android:id="@+id/backspace"
-            android:textSize="30sp"
+            ></ImageButton>
 
-            ></Button>
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
